@@ -35,10 +35,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paul90/wiki-plugin-bars.git"
+    "url": "https://github.com/fedwiki/wiki-plugin-bars.git"
   },
   "bugs": {
-    "url": "https://github.com/paul90/wiki-plugin-bars/issues"
+    "url": "https://github.com/fedwiki/wiki-plugin-bars/issues"
   },
   "engines": {
     "node": "0.10"
