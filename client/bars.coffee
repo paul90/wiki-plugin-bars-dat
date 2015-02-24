@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Bars Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-bars/blob/master/LICENSE.txt
+###
+
 window.plugins.bars =
   bind: (div, item) ->
   emit: (div, item) ->
