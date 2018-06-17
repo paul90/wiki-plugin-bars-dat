@@ -8,7 +8,8 @@
 window.plugins.bars =
   bind: (div, item) ->
   emit: (div, item) ->
-    wiki.getScript '/js/d3/d3.min.js', ->
+    scriptURL =  wiki.clientOrigin + '/js/d3/d3.min.js'
+    wiki.getScript scriptURL, ->
       data = (x[1]/100.0 for x in wiki.getData() by 5)
       w = 380
       h = 230
